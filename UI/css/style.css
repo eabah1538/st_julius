@@ -3,7 +3,7 @@
  }
  
  body {
-     background-color: rgba(226, 223, 223, 0.637);
+     /* background-color: rgba(226, 223, 223, 0.637); */
      background-attachment: fixed;
  }
  
@@ -34,10 +34,7 @@
      
  }
  
- .col-md-2{
-     background-color: rgba(0, 0, 0, 0.363);
-     box-shadow: 5px 5px 5px black; 
- }
+
  button { 
      background-color: rgb(131, 79, 11);
      color: bisque;
@@ -49,10 +46,10 @@
  
  }
  
- div.container {
+ /* div.container {
      padding: none;
-     background-color: rgb(252, 250, 248);
- }
+     /* background-color: rgb(252, 250, 248); 
+ } */
  .img-circle{
      border: 1px;
      width: 150px;

@@ -37,7 +37,7 @@
 
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#">Home
             <span class="sr-only">(current)</span>
           </a>
@@ -109,11 +109,42 @@
           </h5> 
         </div>  
       </div> -->
+
+      <div class="container">
+      <div class='row p-5'>
+        <div class="col-md-2"> 
+          <div class='card adCard'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Dolore officiis labore porro expedita illum excepturi doloremque 
+                minima omnis beatae. Veniam, dolore magnam asperiores cumque vitae 
+                eius voluptatem omnis deleniti temporibus. 
+          </div>
+        </div>
+        
+          <div class="col-md-10">
+            <h3 class="lead">Welcome Address from the Priest</h3>
+            <div style="height: 200px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Est illum nesciunt ad aspernatur mollitia quis cupiditate 
+            cum maiores harum quod, praesentium ut officiis provident voluptatibus,
+             molestiae reiciendis dignissimos repellat quam.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Est illum nesciunt ad aspernatur mollitia quis cupiditate 
+            cum maiores harum quod, praesentium ut officiis provident voluptatibus,
+             molestiae reiciendis dignissimos repellat quam.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Est illum nesciunt ad aspernatur mollitia quis cupiditate 
+            cum maiores harum quod, praesentium ut officiis provident voluptatibus,
+             molestiae reiciendis dignissimos repellat quam.
+            </div>
+          </div>
+        </div>
+      </div>
             
         
         <div class="row m-3">
           <div class="col-md-6">
-            <div class="card myCard" id='liturgical_season_calendar'>
+            <div class="card myCard p-3" id='liturgical_season_calendar'>
               <div id='liturgical-date'><h5></h5></div>
               <div id='liturgical-celebration'></div>
               <div id='liturgical-color'></div>
@@ -131,14 +162,7 @@
         
 
       <div class='row'>
-        <div class="col-md-2"> 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Dolore officiis labore porro expedita illum excepturi doloremque 
-                minima omnis beatae. Veniam, dolore magnam asperiores cumque vitae 
-                eius voluptatem omnis deleniti temporibus. 
-        </div>
-
-        <div class="col-md-7">
+        <div class="col-md-9">
           <div>
             <img src='../../assets/interior.jpg'
                height="250px' width="400px" class='img-square'>
