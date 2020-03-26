@@ -95,23 +95,9 @@
   </div> 
 
   <div class="container-fluid">
-    <!-- <div id='landingPage'>
-        <img src="file:///C:/Users/Valentine-Marie/Pictures/Saved Pictures/Pope_Julius_II.jpg" class='img-circle' 
-        image-border="0">
-        <div id="Church_name_header">
-          <h1>
-                    ST. JULIUS CATHOLIC CHURCH
-          </h1>
-          <h5>
-                  Orudu Junction, Opeilu, Agbado Station.
-                    P.O. Box 173, Ifo, Ogun State <br> <thickspace>
-                     Email: stjuliuscatholicchurch@gmail.com <br><br>
-          </h5> 
-        </div>  
-      </div> -->
-
       <div class="container">
       <div class='row p-5'>
+        <!-- Quick access links -->
         <div class="col-md-2"> 
           <div class='card adCard'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -120,7 +106,9 @@
                 eius voluptatem omnis deleniti temporibus. 
           </div>
         </div>
-        
+       <!-- Quick access links -->
+
+       <!-- Welocome address -->
           <div class="col-md-10">
             <h3 class="lead">Welcome Address from the Priest</h3>
             <div style="height: 200px">
