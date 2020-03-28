@@ -3,8 +3,7 @@
  }
  
  body {
-     /* background-color: rgba(226, 223, 223, 0.637); */
-     background-attachment: fixed;
+   background-attachment: fixed;
  }
  
  h1, h5 {
@@ -46,18 +45,6 @@
  
  }
  
- /* div.container {
-     padding: none;
-     /* background-color: rgb(252, 250, 248); 
- } */
- .img-circle{
-     border: 1px;
-     width: 150px;
-     height: 190px;
-     float: left;
-     box-shadow: 5px 2px 2px black;
- }
- 
  .myHero{
      height: 400px;
      background-image: url('../../assets/interior2.jpg');
@@ -68,12 +55,40 @@
      flex: 1;
  }
  
+ .myCards{
+     min-height: 100px;
+ }
+
  .myCard{
-     height: 150px;
+     min-height: 100px;
  }
  
  .textInHero{
      color: white;
      align-items: center;
      justify-content: center;
+ }
+
+ .welcomeHead{
+    font-size: 3em !important;
+ }
+
+ .welcomeBody{
+     font-size: 1.5em;
+ }
+
+ .testimony{
+     background-image: url('../../assets/interior.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+ 
+ .quotes{
+     font-style: italic;
+     text-align: center;
+ }
+
+ .quoteHead{
+     text-align: center !important;
  }

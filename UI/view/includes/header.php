@@ -19,7 +19,7 @@
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background: whitesmoke; 
+  <nav class="navbar navbar-expand-lg navbar-light" style=" 
   min-height: 100px;
   ">
 
@@ -53,7 +53,7 @@
         <a class="nav-link" href="#">Devotional</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Membership</a>
+        <a class="nav-link" href="./Reg_form.php">Membership</a>
       </li>
     </li>
     <li class="nav-item">

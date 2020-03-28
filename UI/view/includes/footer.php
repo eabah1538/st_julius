@@ -1,13 +1,59 @@
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<!-- Footer -->
+<footer class="page-footer font-small special-color-light pt-4">
+<h5 class=' flex-center mb-3 p-2'>Sign up for our newsletter </h5>
+  <!-- Footer Search -->
+  <div class="container">
 
-  <!-- Footer Links -->
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <!-- Form -->
+        <form class="form-inline">
+          <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+            aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+        </form>
+        <!-- Form -->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-6 mb-4">
+
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" id='email' placeholder="Your email"
+            aria-label="Your email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+          </div>
+        </form>
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+  <!-- Footer search -->
+
+</footer>
+
+
+<!-- Footer Links -->
+
+<footer class="page-footer font-small mdb-color dark-1 pt-4">
   <div class="container text-center text-md-left">
 
     <!-- Grid row -->
     <div class="row">
 
       <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+      <div class="col-md-5 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Content -->
         <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
@@ -56,7 +102,7 @@
       <hr class="clearfix w-100 d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+      <div class="col-md-5 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
         <!-- Contact details -->
         <h5 class="font-weight-bold text-uppercase mb-4" font-color='black'>Address</h5>
@@ -79,54 +125,76 @@
               <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
           </li>
         </ul>
-
       </div>
       <!-- Grid column -->
 
       <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
-
-        <!-- Social buttons -->
-        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-
-        <!-- Facebook -->
-        <a type="button" class="btn-floating btn-fb">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <!-- Twitter -->
-        <a type="button" class="btn-floating btn-tw">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <!-- Google +-->
-        <a type="button" class="btn-floating btn-gplus">
-          <i class="fab fa-google-plus-g"></i>
-        </a>
-        <!-- Dribbble -->
-        <a type="button" class="btn-floating btn-dribbble">
-          <i class="fab fa-dribbble"></i>
-        </a>
-
-      </div>
-      <!-- Grid column -->
-
     </div>
     <!-- Grid row -->
 
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
   </div>
-  <!-- Copyright -->
+</Footer>
+
+<!-- Footer Links -->
+  
+  <!--Footer Media handles -->
+<footer class="page-footer font-small cyan darken-3">
+<div class="container">
+
+  <!-- Grid row-->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-12 py-5">
+    <div><h5 class="font-weight-bold text-uppercase mb-1 flex-center">Follow Us</h5></div>
+      <div class="mb-5 flex-center">
+
+        <!-- Facebook -->
+        
+        <a class="fb-ic">
+          <i class="fab fa-facebook-square fa-lg white blue-text mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+       
+        <!-- Twitter -->
+        <a class="tw-ic">
+          <i class="fab fa-twitter fa-lg light-blue-text mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+        <!-- Google +-->
+        <a class="gplus-ic">
+          <i class="fab fa-google-plus-g fa-lg red white-text mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Linkedin -->
+        <a class="li-ic">
+          <i class="fab fa-linkedin-in fa-lg blue white-text mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Instagram-->
+        <a class="ins-ic">
+          <i class="fab fa-instagram fa-lg orange-text mr-md-5 mr-3 fa-2x"> </i>
+        </a>
+        <!--Pinterest-->
+        <a class="pin-ic">
+          <i class="fab fa-pinterest fa-lg  red-text fa-2x"> </i>
+        </a>
+
+      </div>
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row-->
+
+</div>
+<!--Footer Media handles -->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a href="#"> St. Julius Catholic Church Agbado.</a>
+</div>
+<!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-Join our newsletter 
-  </div>
         
     <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

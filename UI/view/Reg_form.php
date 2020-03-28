@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php include("./includes/header.php"); ?>
+
 <?php
 //Setting the cookie variables...
     $cookie_name = 'nyCookie';
@@ -13,30 +14,16 @@
     }
 
 ?>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Registration Form A </title>
-      <!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
- <!-- Your custom styles (optional) -->
-<link rel="stylesheet" href="../css/style.css">
-</head>
+
+
+
 <body class="Forms">
 <div class='container-fluid'></div>
   <div class='container'>
-    <form action='st_julius_bknd.php' method='POST'>
+    <form action='../server/st_julius_bknd.php' method='POST'>
         
     <?php
-        include 'st_julius_bknd.php';
+        include('../../server/st_julius_bknd.php');
     ?>
      <div id='form_header'>
         <Label>
@@ -74,19 +61,8 @@
                 <br>
   <a href="Reg_form_p2"> page 1/2</a>
 
+  </div>
+  <?php include("./includes/footer.php") ?>
 
-</div>
 
-
-    <!-- jQuery -->
-    <script type="text/javascript" src="../MDB_lib/js/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="../MDB_lib/js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="../MDB_lib/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="../MDB_lib/js/mdb.min.js"></script>
-    <!-- Your custom scripts (optional) -->
-    <script type="text/javascript" src="../MDB_lib/src/js/free/forms-free.js"></script>
 </body>
-</html>

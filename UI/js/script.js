@@ -17,7 +17,7 @@ fetch(url)
     lc.innerHTML = data.celebrations[0].colour;
 
     sn.style.backgroundColor = data.celebrations[0].colour;
-    
+    data.celebrations[0].colour == 'white' ? sn.style.color = 'black' : sn.style.color = 'white'; 
     
   })
   .catch(function(error) {
