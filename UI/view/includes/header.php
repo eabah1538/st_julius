@@ -19,8 +19,8 @@
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light" style=" 
-  min-height: 100px;
+  <nav class="navbar navbar-expand-lg white navbar-light fixed-top scrolling-navbar" style=" 
+ 
   ">
 
     <!-- Navbar brand -->
@@ -79,7 +79,8 @@
 
       <form class="form-inline">
         <div class="md-form my-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search"  aria-label="Search">
+          <i class="fas fa-search" aria-hidden="true"></i>       
         </div>
       </form>
     </div>

@@ -9,8 +9,6 @@ const url = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today"
 fetch(url)
   .then(response => response.json())
   .then(function(data) {
-
-    console.log(data.celebrations[0].title);
     
     dt.innerHTML = data.date;
     c.innerHTML = data.celebrations[0].title + ', ';
@@ -23,3 +21,25 @@ fetch(url)
   .catch(function(error) {
     console.log(error);
   });
+
+  const newsApiKey = 'd1f07837eb494291bbbb2f973ff0fa76';
+  const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&q=english&apiKey="+newsApiKey;
+
+  fetch(newsApiUrl)
+    .then(response => response.json())
+    .then(function(data){
+
+      data.articles.map((news) => {
+        nt.innerHTML = news.title;
+      });
+
+    // nt.innerHTML = data.articles[]title;
+    // nt.innerHTML = data.
+
+
+      console.log(data);
+
+
+    }).catch(function(error){
+      console.log(error);
+    })
