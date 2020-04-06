@@ -9,36 +9,7 @@
   <div class="container">
       <div class="container">
       <div class='row p-5 '>
-        <!-- Quick access links -->
-        <div class="col-md-3 p-3"> 
-          <div class='card quickLinks p-4'>
-                <h2 class="lead">
-                  Quick links
-                </h2>
-                <ul class="list">
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                  <li class="list-item">
-                  Lorem ipsum dolor sit amet
-                  </li>
-                </ul>
-          </div>
-        </div>
-       <!-- Quick access links -->
-
+        
        <!-- Welocome address -->
           <div class="col-md-9">
             <h3 class="welcomeHead pt-3">Welcome Address from the Priest</h3>
@@ -54,6 +25,18 @@
             </div>
           </div>
         <!-- welcome address -->
+
+        <!-- News Feeds links -->
+        <div class="col-md-3 p-3"> 
+          <div class='card quickLinks p-4'>
+                <h2 class="lead">
+                  News Feeds
+                </h2>
+                <ul id="newsFeeds"></ul>
+          </div>
+        </div>
+       <!-- News Feeds links -->
+
         </div>
       </div>
 
@@ -107,69 +90,10 @@
       </div>
 
 
-      <!-- <div class="row">
-        <div class="col-md-12">
-          <span> Click button to sign up to our Newsletter</span>
-          <a href='#email' class="btn btn-warning">Sign Up</a>
-        </div>
-      </div> -->
-      <!-- <div class= "row">
-        <div class= "col-md-1"></div>
-        <div class= "col-md-7">
-          <video height= '300' width= '350' controls>
-            <source src="learn_php.mp4" type="video/mp4">
-            <source src="learn_php.ogg" type="video/ogg">
-            <source src="learn_php.aac" type="video/aac"> 
-             Browser does not support video <br>
-          </video>
-        </div>
-        <div class= "col-md-4">
-           <div class= "col-md-8"> 
-              Events on video
-              <a href="#">
-                <li>
-              <video height= '100' width= '150' controls>
-                <source src="learn_php.mp4" type="video/mp4">
-                <source src="learn_php.ogg" type="video/ogg">
-                <source src="learn_php.aac" type="video/aac"> 
-                 Browser does not support video
-              </video><br>
-              Youths in action
-               </li>
-             </a>
-             <a href="#">
-               <li>
-                   <video height= '100' width= '150' controls>
-                       <source src="learn_php.mp4" type="video/mp4">
-                       <source src="learn_php.ogg" type="video/ogg">
-                       <source src="learn_php.aac" type="video/aac"> 
-                        Browser does not support video <br>
-                     </video><br>
-                     Youths in action
-               </li>
-             </a>
-             <a href="#">
-               <li>
-                   <video height= '100' width= '150' controls>
-                       <source src="learn_php.mp4" type="video/mp4">
-                       <source src="learn_php.ogg" type="video/ogg">
-                       <source src="learn_php.aac" type="video/aac"> 
-                        Browser does not support video <br>
-                     </video><br>
-                     Youths in action
-               </li>
-             </a>
-           </div>
-           <div class="col-sm-4"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae laboriosam perspiciatis, debitis sit blanditiis commodi. Nemo iste dolores excepturi beatae inventore ad, cupiditate itaque quibusdam, quod adipisci quam tempore officia?</div>
-        </div>
-      </div> -->
-
-
-
-
     </div> 
   </div>
   
-  <div style="background:lightgray;">
+  <div style="background:darkgray;">
 
   <?php include("./includes/footer.php"); ?>
+  </div>

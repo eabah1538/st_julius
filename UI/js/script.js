@@ -23,23 +23,42 @@ fetch(url)
   });
 
   const newsApiKey = 'd1f07837eb494291bbbb2f973ff0fa76';
-  const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&q=english&apiKey="+newsApiKey;
+  const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&q=english&apiKey="+ newsApiKey;
 
+  nf = document.getElementById('newsFeeds');
+  
   fetch(newsApiUrl)
     .then(response => response.json())
     .then(function(data){
 
-      data.articles.map((news) => {
-        nt.innerHTML = news.title;
-      });
+      data.articles
+        .filter((news, i) => (i < 5))
+        .map((news) => {
 
-    // nt.innerHTML = data.articles[]title;
-    // nt.innerHTML = data.
+        let image = document.createElement("img");
+        image.setAttribute("src", news.urlToImage); 
+        image.style.maxHeight = "50px";
 
+        let anchor = document.createElement("a");
+        anchor.setAttribute("href", news.url);
+        anchor.setAttribute("target", "_blank");
+          nf.appendChild(anchor);
 
-      console.log(data);
+          nl = document.createElement("li");
+          anchor.appendChild(image);
+          anchor.appendChild(nl);
+  
+        nl.innerHTML = news.title;
+      })   
 
+      //   moreNews = document.createElement("a");
+      // moreNews.setAttribute("href", news.url);
+      // moreNews.setAttribute("target", "_blank");
+      // nf.appendChild(moreNews);
 
-    }).catch(function(error){
+      // moreNews.innerHTML = "See More >>";
+      
+    })
+    .catch(function(error) {
       console.log(error);
     })
