@@ -31,7 +31,6 @@
      box-shadow: 2px 2px 2px gray,
                  inset 2px 2px 5px rgb(70, 34, 230); */
      
- }
  
 
  button { 
@@ -92,4 +91,9 @@
 
  .quoteHead{
      text-align: center !important;
+ }
+
+ .heroContent{
+    height: 400px;
+    opacity: 0.8;  
  }

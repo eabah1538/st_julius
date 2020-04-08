@@ -1,17 +1,61 @@
 <?php include("./includes/header.php"); ?>
 
+  <!-- Tab -->
   <div class="myHero">
-        <div class="textInHero">
-          <!-- <h2 class="text-align-center">"You shall be my people, and I shall be your God..."</h2> -->
+    <div class="row" style="padding-top: 35px !important;">
+      <div class="col-md-8"></div>
+      <div class="col-md-4">
+        <div class="card heroContent m-5">
+
+          <!--Tab-nav -->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#liturgical_calendar_today"
+                     role="tab" aria-controls="home" aria-selected="true">Today
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#liturgical_calendar_tomorrow"
+                     role="tab" aria-controls="profile" aria-selected="false">Tomorrow
+                  </a>
+                </li>
+              </ul>
+              <!-- Tab-nav -->
+
+              <!-- Tab-content -->
+              <div class="tab-content" id="myTabContent">
+              <!-- Today -->
+                <div class="tab-pane fade show active" id="liturgical_calendar_today" role="tabpanel" aria-labelledby="home-tab">
+                    <h4>
+                      <div id='liturgical-date'></div>
+                      <div id='liturgical-celebration'></div>
+                      <div id='liturgical-color'></div>
+                    </h4> 
+                </div>
+                <!-- Today -->
+                <!-- Tomorrow-->
+                <div class="tab-pane fade" id="liturgical_calendar_tomorrow" role="tabpanel" aria-labelledby="profile-tab">
+                <h4>
+              <div id='liturgical-date'></div>
+              <div id='liturgical-celebration'></div>
+              <div id='liturgical-color'></div>
+             </h4>
+                </div>
+              </div>
+              <!-- Tomorrow -->
+              <!-- Tab-content -->
         </div>
+      </div>
+    </div>
   </div> 
+  <!-- Tab -->
 
   <div class="container">
-      <div class="container">
+    <div class="container">
       <div class='row p-5 '>
         
        <!-- Welocome address -->
-          <div class="col-md-9">
+          <div class="col-md-8">
             <h3 class="welcomeHead pt-3">Welcome Address from the Priest</h3>
             <div class="welcomeBody" style="min-height: 100px">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -24,11 +68,11 @@
              molestiae reiciendis dignissimos repellat quam
             </div>
           </div>
-        <!-- welcome address -->
+        <!-- Welcome address -->
 
         <!-- News Feeds links -->
-        <div class="col-md-3 p-3"> 
-          <div class='card quickLinks p-4'>
+        <div class="col-md-4 p-3"> 
+          <div class='card newsFeed p-4'>
                 <h2 class="lead">
                   News Feeds
                 </h2>
@@ -37,27 +81,23 @@
         </div>
        <!-- News Feeds links -->
 
-        </div>
-      </div>
+     </div>
+    </div>
 
       <!--Card  -->
       <!--Liturgical calendar-->
         <div class="row mr-5 ml-5 mb-5 myCards">
           <div class="col-md-6">
-            <div class="card myCard p-4  text-center" id='liturgical_season_calendar'>
-            <h4>
-              <div id='liturgical-date'></div>
-              <div id='liturgical-celebration'></div>
-              <div id='liturgical-color'></div>
-             </h4>
-            </div>
+            <div class="card myCard p-4  text-center" id='   '></div>
           </div>
+        <!--Liturgical calendar-->
 
       <!-- Saint of the day -->
           <div class="col-md-6">
             <div class="card myCard" id='saint_of_the_day'></div>
           </div>
         </div>
+      <!-- Saint of the day -->
     <!-- Card -->
 
     <div class="row p-5">
