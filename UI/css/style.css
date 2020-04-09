@@ -23,16 +23,6 @@
  div header nav{
      background-color: rgb(131, 79, 11);
  }
-
- /* a li{
-     padding: 5px;
-     text-align: center;
-     list-style: none;
-     box-shadow: 2px 2px 2px gray,
-                 inset 2px 2px 5px rgb(70, 34, 230); */
-     
- 
-
  button { 
      background-color: rgb(131, 79, 11);
      color: bisque;

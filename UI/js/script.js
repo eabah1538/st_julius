@@ -1,39 +1,68 @@
-let url_today = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today";
-let url_tmrrw = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/tomorrow";
+const url_today = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/today";
+const url_tmrrw = "http://calapi.inadiutorium.cz/api/v0/en/calendars/general-en/tomorrow";
 
-const urls = [url_today, url_tmrrw];
-
-    let st = document.getElementById('saint_of_the_day');
+    // let st = document.getElementById('saint_of_the_day');
     let sn1 =  document.getElementById('liturgical_calendar_today');
     let sn2 =  document.getElementById('liturgical_calendar_tomorrow');
-    let dt = document.getElementById('liturgical-date');
-    let c = document.getElementById('liturgical-celebration');
-    let lc = document.getElementById('liturgical-color');
+    let dt1 = document.getElementById('liturgical-date-tdy');
+    let dt2= document.getElementById('liturgical-date-tmr');
+    let c1 = document.getElementById('liturgical-celebration-tdy');
+    let c2 = document.getElementById('liturgical-celebration-tmr');
+    let lc1 = document.getElementById('liturgical-color-tdy');
+    let lc2 = document.getElementById('liturgical-color-tmr');
 
-Promise.all(urls.map(url =>
-    fetch(url_today),
-    fetch(url_tmrrw)
-  .then(response => response.json())
-  .then(data => {
+    fetch(url_today,)
+    .then(response => response.json())
+    .then(data => {
     
-    dt.innerHTML = data.date;
-    c.innerHTML = data.celebrations[0].title + ', ';
-    lc.innerHTML = data.celebrations[0].colour;
+    dt1.innerHTML = data.date;
+    c1.innerHTML = data.celebrations[0].title + ', ';
+    lc1.innerHTML = data.celebrations[0].colour;
 
-    sn1.style.backgroundColor, sn2.style.backgroundColor = data.celebrations[0].colour;
-    data.celebrations[0].colour == 'white' ? sn1.style.color == 'black': sn1.style.color == 'white'; 
-    data.celebrations[0].colour == 'white' ? sn2.style.color == 'black': sn2.style.color == 'white'; 
-    
+    sn1.style.backgroundColor = data.celebrations[0].colour;
+    data.celebrations[0].colour == 'white' ? sn1.style.color == 'black': sn1.style.color == 'white';   
+
   })
-))
+  // .then(response => response.json())
+
+  //   .then(data => {
+    
+  //   dt.innerHTML = data.date;
+  //   c.innerHTML = data.celebrations[0].title + ', ';
+  //   lc.innerHTML = data.celebrations[0].colour;
+  
+  //   sn2.style.backgroundColor = data.celebrations[0].colour;
+  //   data.celebrations[0].colour == 'white' ? sn2.style.color == 'black': sn2.style.color == 'white'; 
+        
+  // })
+  
+
   .catch(function(error) {
     console.log(error);
   });
 
+  fetch(url_tmrrw)
+  .then(response => response.json())
+  .then(data => {
+  
+  dt2.innerHTML = data.date;
+  c2.innerHTML = data.celebrations[0].title + ', ';
+  lc2.innerHTML = data.celebrations[0].colour;
+
+  sn2.style.backgroundColor = data.celebrations[0].colour;
+  data.celebrations[0].colour == 'white' ? sn2.style.color == 'black': sn2.style.color == 'white'; 
+      
+})
+
+.catch(function(error) {
+  console.log(error);
+
+});
+
  const newsApiKey = 'd1f07837eb494291bbbb2f973ff0fa76';
  const newsApiUrl = "http://newsapi.org/v2/everything?domains=catholicnewsagency.com&q=english&apiKey="+ newsApiKey;
 
-  nf = document.getElementById('newsFeeds');
+  let nf = document.getElementById('newsFeeds');
   
   fetch(newsApiUrl)
     .then(response => response.json())
@@ -130,19 +159,20 @@ Promise.all(urls.map(url =>
 
 // OR
 
-// // store urls to fetch in an array
-// const urls = [
+// store urls to fetch in an array
+// const _urls = [
 //   'https://dog.ceo/api/breeds/list',
 //   'https://dog.ceo/api/breeds/image/random'
 // ];
 
 // // use map() to perform a fetch and handle the response for each url
-// Promise.all(urls.map(url =>
+// Promise.all(_urls.map(url =>
 //   fetch(url)
-//     .then(checkStatus)                 
-//     .then(parseJSON)
-//     .catch(logError)
+//     // .then(checkStatus)                 
+//     // .then(parseJSON)
+//     // .catch(logError)
 // ))
 // .then(data => {
 //   // do something with the data
+//   console.log(data);
 // })

@@ -23,22 +23,22 @@
               <!-- Tab-nav -->
 
               <!-- Tab-content -->
-              <div class="tab-content" id="myTabContent">
+              <div class="tab-content" id="liturgical-celebration">
               <!-- Today -->
                 <div class="tab-pane fade show active" id="liturgical_calendar_today" role="tabpanel" aria-labelledby="home-tab">
                     <h4>
-                      <div id='liturgical-date'></div>
-                      <div id='liturgical-celebration'></div>
-                      <div id='liturgical-color'></div>
+                      <div id='liturgical-date-tdy'></div>
+                      <div id='liturgical-celebration-tdy'></div>
+                      <div id='liturgical-color-tdy'></div>
                     </h4> 
                 </div>
                 <!-- Today -->
                 <!-- Tomorrow-->
                 <div class="tab-pane fade" id="liturgical_calendar_tomorrow" role="tabpanel" aria-labelledby="profile-tab">
                 <h4>
-              <div id='liturgical-date'></div>
-              <div id='liturgical-celebration'></div>
-              <div id='liturgical-color'></div>
+              <div id='liturgical-date-tmr'></div>
+              <div id='liturgical-celebration-tmr'></div>
+              <div id='liturgical-color-tmr'></div>
              </h4>
                 </div>
               </div>
