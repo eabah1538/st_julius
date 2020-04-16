@@ -1,0 +1,75 @@
+<div class="panelBox"><div id="cs_control_118957" class="cs_control CS_Element_Schedule"><div title="" id="CS_Element_rightContainerVeryTop"></div></div>
+<h3>Calendar</h3>
+<div align="center" id="calendarSmallWrapper">
+<script type="text/javascript">
+function loadMonth(dt) {
+$('#calendarSmall').css('box-shadow','0 0 10px #ccc');
+$('#monthTitle').text('Loading...');
+$('.dy').css('opacity','0.6');
+$('.cD').css('background-color','#ccc').css('color','#aaa');
+calendarURL='/customcf/calendar-small.cfm?processdate=' + dt;
+$('#thisMonth').load(calendarURL);
+}
+</script>
+<!-- ////////////////////////////////// SMALL READING CALENDAR /////////////////////////////// -->
+<!--googleoff: all-->
+<!--  do not want Google to index these calendar date links -->
+<div id="thisMonth">
+<table id="calendarSmall" cellpadding="3" cellspacing="1" align="center">
+<tbody><tr>
+<th class="link" align="center" onclick="loadMonth('2020-03-01');"><strong>«</strong></th>
+<th colspan="5" id="monthTitle"><strong>April 2020</strong></th>
+<th class="link" onclick="loadMonth('2020-05-01');"><strong>»</strong></th>
+</tr>
+<tr class="daysOfWeek"><td class="dy">Su</td><td class="dy">Mo</td><td class="dy">Tu</td><td class="dy">We</td><td class="dy">Th</td><td class="dy">Fr</td><td class="dy">Sa</td></tr>
+<tr>
+<td onclick="location.href='/bible/readings/032920.cfm';" style="background-color: purple; color: white;" class="cD dim">&nbsp;29&nbsp;</td>
+<td onclick="location.href='/bible/readings/033020.cfm';" style="background-color: purple; color: white;" class="cD dim">&nbsp;30&nbsp;</td>
+<td onclick="location.href='/bible/readings/033120.cfm';" style="background-color: purple; color: white;" class="cD dim">&nbsp;31&nbsp;</td>
+<td onclick="location.href='/bible/readings/040120.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;1&nbsp;</td>
+<td onclick="location.href='/bible/readings/040220.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;2&nbsp;</td>
+<td onclick="location.href='/bible/readings/040320.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;3&nbsp;</td>
+<td onclick="location.href='/bible/readings/040420.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;4&nbsp;</td></tr><tr>
+<td onclick="location.href='/bible/readings/040520.cfm';" style="background-color: red; color: white;" class="cD d">&nbsp;5&nbsp;</td>
+<td onclick="location.href='/bible/readings/040620.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;6&nbsp;</td>
+<td onclick="location.href='/bible/readings/040720.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;7&nbsp;</td>
+<td onclick="location.href='/bible/readings/040820.cfm';" style="background-color: purple; color: white;" class="cD d">&nbsp;8&nbsp;</td>
+<td onclick="location.href='/bible/readings/040920.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;9&nbsp;</td>
+<td onclick="location.href='/bible/readings/041020.cfm';" style="background-color: red; color: white;" class="cD d">&nbsp;10&nbsp;</td>
+<td onclick="location.href='/bible/readings/041120.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;11&nbsp;</td></tr><tr>
+<td onclick="location.href='/bible/readings/041220.cfm';" style="background-color:white;color:black;" class="cD damn">&nbsp;12&nbsp;</td>
+<td onclick="location.href='/bible/readings/041320.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;13&nbsp;</td>
+<td onclick="location.href='/bible/readings/041420.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;14&nbsp;</td>
+<td onclick="location.href='/bible/readings/041520.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;15&nbsp;</td>
+<td onclick="location.href='/bible/readings/041620.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;16&nbsp;</td>
+<td onclick="location.href='/bible/readings/041720.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;17&nbsp;</td>
+<td onclick="location.href='/bible/readings/041820.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;18&nbsp;</td></tr><tr>
+<td onclick="location.href='/bible/readings/041920.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;19&nbsp;</td>
+<td onclick="location.href='/bible/readings/042020.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;20&nbsp;</td>
+<td onclick="location.href='/bible/readings/042120.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;21&nbsp;</td>
+<td onclick="location.href='/bible/readings/042220.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;22&nbsp;</td>
+<td onclick="location.href='/bible/readings/042320.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;23&nbsp;</td>
+<td onclick="location.href='/bible/readings/042420.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;24&nbsp;</td>
+<td onclick="location.href='/bible/readings/042520.cfm';" style="background-color: red; color: white;" class="cD d">&nbsp;25&nbsp;</td></tr><tr>
+<td onclick="location.href='/bible/readings/042620.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;26&nbsp;</td>
+<td onclick="location.href='/bible/readings/042720.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;27&nbsp;</td>
+<td onclick="location.href='/bible/readings/042820.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;28&nbsp;</td>
+<td onclick="location.href='/bible/readings/042920.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;29&nbsp;</td>
+<td onclick="location.href='/bible/readings/043020.cfm';" style="background-color:white;color:black;" class="cD d">&nbsp;30&nbsp;</td>
+<td onclick="location.href='/bible/readings/050120.cfm';" style="background-color:white;color:black;" class="cD dim">&nbsp;1&nbsp;</td>
+<td onclick="location.href='/bible/readings/050220.cfm';" style="background-color:white;color:black;" class="cD dim">&nbsp;2&nbsp;</td></tr><tr>
+</tr>
+</tbody></table></div>
+<div id="nextmonth"></div>
+<div id="prevmonth"></div>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.cD').eq(0).css('color','white'); $('.cD').eq(1).css('color','white'); $('.cD').eq(2).css('color','white'); $('.cD').eq(3).css('color','white'); $('.cD').eq(4).css('color','white'); $('.cD').eq(5).css('color','white'); $('.cD').eq(6).css('color','white'); $('.cD').eq(7).css('color','white'); $('.cD').eq(8).css('color','white'); $('.cD').eq(9).css('color','white'); $('.cD').eq(10).css('color','white'); $('.cD').eq(11).css('color','black'); $('.cD').eq(12).css('color','white'); $('.cD').eq(13).css('color','black'); $('.cD').eq(14).css('color','black'); $('.cD').eq(15).css('color','black'); $('.cD').eq(16).css('color','black'); $('.cD').eq(17).css('color','black'); $('.cD').eq(18).css('color','black'); $('.cD').eq(19).css('color','black'); $('.cD').eq(20).css('color','black'); $('.cD').eq(21).css('color','black'); $('.cD').eq(22).css('color','black'); $('.cD').eq(23).css('color','black'); $('.cD').eq(24).css('color','black'); $('.cD').eq(25).css('color','black'); $('.cD').eq(26).css('color','black'); $('.cD').eq(27).css('color','white'); $('.cD').eq(28).css('color','black'); $('.cD').eq(29).css('color','black'); $('.cD').eq(30).css('color','black'); $('.cD').eq(31).css('color','black'); $('.cD').eq(32).css('color','black'); $('.cD').eq(33).css('color','black'); $('.cD').eq(34).css('color','black');
+});
+</script>
+<!--googleon: all-->
+</div><div id="cs_control_122719" class="cs_control CS_Element_Schedule"><div title="" id="CS_Element_rightContainerTop2"><div id="gridRow_1_1_122719" class="cs_GridRow"><div id="gridCol_1_1_1_1_122719" class="cs_GridColumn"><div id="cs_control_122746" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_122746"></div></div><div id="cs_control_122941" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_122941"></div></div><div id="cs_control_146434" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_146434"></div></div><div id="cs_control_162089" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_162089"></div></div><div id="cs_control_168406" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_168406"></div></div><a name="CTP" id="CTP"></a><a name="CP_JUMP_173074" id="CP_JUMP_173074"></a><div id="cs_control_173074" class="cs_control CS_Element_Schedule"><div title="" id="CS_Sched_297301_173074"></div></div></div></div></div></div><h3 id="related-information-header">Items of Interest</h3>
+<ul>
+<li><a href="http://www.usccb.org/bible/readings-audio.cfm">Daily Readings — Audio</a></li>
+<li><a href="http://www.usccb.org/bible/reflections/">Daily Reflections — Video</a></li>
+</ul>

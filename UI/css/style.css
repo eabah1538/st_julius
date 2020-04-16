@@ -37,7 +37,7 @@
  .myHero{
      height: 500px;
      background-image: url('../../assets/interior2.jpg');
-     background-size: 1200px;
+     background-size: cover;
      background-position: bottom;
      background-attachment: fixed;
      margin: 0;

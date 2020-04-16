@@ -1,10 +1,11 @@
 <?php include("./includes/header.php"); ?>
-
-  <!-- Tab -->
+ 
   <div class="myHero">
     <div class="row" style="padding-top: 35px !important;">
       <div class="col-md-8"></div>
       <div class="col-md-4">
+
+           <!-- Tab -->
         <div class="card heroContent m-5">
 
           <!--Tab-nav -->
@@ -36,21 +37,25 @@
                 <!-- Tomorrow-->
                 <div class="tab-pane fade" id="liturgical_calendar_tomorrow" role="tabpanel" aria-labelledby="profile-tab">
                 <h4>
-              <div id='liturgical-date-tmr'></div>
-              <div id='liturgical-celebration-tmr'></div>
-              <div id='liturgical-color-tmr'></div>
-             </h4>
+                  <div id='liturgical-date-tmr'></div>
+                  <div id='liturgical-celebration-tmr'></div>
+                  <div id='liturgical-color-tmr'></div>
+                </h4>
                 </div>
               </div>
               <!-- Tomorrow -->
               <!-- Tab-content -->
         </div>
+          
+            <!-- Tab -->
+
+          
       </div>
     </div>
   </div> 
-  <!-- Tab -->
+  
 
-  <div class="container">
+  <div class="">
     <div class="container">
       <div class='row p-5 '>
         
@@ -67,6 +72,7 @@
             cum maiores harum quod, praesentium ut officiis provident voluptatibus,
              molestiae reiciendis dignissimos repellat quam
             </div>
+            <p id="Universalis_Mass_G.source"></p>
           </div>
         <!-- Welcome address -->
 
@@ -88,7 +94,13 @@
       <!--Liturgical calendar-->
         <div class="row mr-5 ml-5 mb-5 myCards">
           <div class="col-md-6">
-            <div class="card myCard p-4  text-center" id='   '></div>
+            <div class="card myCard p-4  text-center" id='   '>
+            <a href="http://universalis.com">
+              <img src="http://universalis.com/banner.gif"
+                    alt="Universalis" width="468" height="60" border="0">
+            </a>
+
+            </div>
           </div>
         <!--Liturgical calendar-->
 
@@ -133,7 +145,6 @@
     </div> 
   </div>
   
-  <div style="background:darkgray;">
-
-  <?php include("./includes/footer.php"); ?>
-  </div>
+  
+<?php include("./includes/footer.php"); ?>
+  
