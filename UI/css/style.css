@@ -6,43 +6,85 @@
    background-attachment: fixed;
  }
  
- h1, h5 {
+ h1, h2, h3, h5 {
     color: rgb(131, 79, 11);
     font-weight: bolder;
  }
- 
- #landingPage {
+  nav{
+    background-color: rgb(131, 79, 11);
+}
+ .myHero{
+    height: 500px;
+    background-image: url('../../assets/interior2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    margin: 0;
+    flex: 1;
+}
+
+.heroContent{
+    height: 400px;
+    opacity: 0.8;  
+ }
+
+.textInHero{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeHead, .about_us_head{
+   font-size: 3em !important;
+}
+
+.welcomeBody, .about_us_body{
+    font-size: 1.5em;
+    min-height: 100px;
+}
+
+.quotes{
+    font-style: italic;
+    text-align: center;
+}
+
+.quoteHead{
+    text-align: center !important;
+}
+
+.testimony{
+    background-image: url('../../assets/interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+ /* #landingPage {
      text-align: right;
      background-color: rgba(0, 0, 0, 0.363);
      background-position: center ;
      background-repeat: no-repeat;
      background-size: cover; 
-     height: 200px;
+     
      box-shadow: 5px 5px 5px black;
- }
- div header nav{
-     background-color: rgb(131, 79, 11);
- }
+ } */
+ 
  button { 
      background-color: rgb(131, 79, 11);
      color: bisque;
      width: 150px;
  }
- div.container-fluid{
+  .p_priest, .asso_priest, .catechist
+  .as, .at, .au, .av{
      background-size: cover;
-     background-attachment: fixed;
- 
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 200px;
+     padding: 2px;
  }
  
- .myHero{
-     height: 500px;
-     background-image: url('../../assets/interior2.jpg');
-     background-size: cover;
-     background-position: bottom;
-     background-attachment: fixed;
-     margin: 0;
-     flex: 1;
- }
  
  .myCards{
      min-height: 100px;
@@ -53,37 +95,15 @@
 
  }
  
- .textInHero{
-     color: white;
-     align-items: center;
-     justify-content: center;
+ .about_us{
+    background-image: url("https://i.pinimg.com/236x/3a/5a/42/3a5a428735f788dcf30b8507e5be0435.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
- .welcomeHead{
-    font-size: 3em !important;
- }
-
- .welcomeBody{
-     font-size: 1.5em;
- }
-
- .testimony{
-     background-image: url('../../assets/interior.jpg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
- }
- 
- .quotes{
-     font-style: italic;
-     text-align: center;
- }
-
- .quoteHead{
-     text-align: center !important;
- }
-
- .heroContent{
-    height: 400px;
-    opacity: 0.8;  
+ #carouselSlide{
+     opacity: 0.8;
+     max-height: 550px;
  }

@@ -101,11 +101,11 @@
               <a class="nav-link" href="./about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mission</a>
+              <a class="nav-link" href="#">Devotional</a>
             </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Devotional</a>
+            <a class="nav-link" href="./projects.php">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Reg_form.php">Membership</a>
@@ -143,3 +143,5 @@
 
       </nav>
    <!--/.Navbar-->
+
+   

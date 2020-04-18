@@ -1,6 +1,6 @@
-<?php include("./includes/header.php"); ?>
+  <?php include("./includes/header.php"); ?>
  
-  <div class="myHero">
+<div class="myHero">
     <div class="row" style="padding-top: 35px !important;">
       <div class="col-md-8"></div>
       <div class="col-md-4">
@@ -62,7 +62,7 @@
        <!-- Welocome address -->
           <div class="col-md-8">
             <h3 class="welcomeHead pt-3">Welcome Address from the Priest</h3>
-            <div class="welcomeBody" style="min-height: 100px">
+            <div class="welcomeBody">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Est illum nesciunt ad aspernatur mollitia quis cupiditate 
             cum maiores harum quod, praesentium ut officiis provident voluptatibus,
