@@ -1,6 +1,6 @@
 <!-- Footers -->
   <!-- footer signup -->
-    <footer class="page-footer font-small special-color-dark 1 pt-4">
+    <footer class="page-footer font-small pt-4">
     <h5 class=' flex-center mb-3 p-2'>Sign up for our newsletter </h5>
       <!-- Footer Search -->
       <div class="container">
@@ -47,7 +47,7 @@
 
   <!-- Footer Links -->
 
-    <footer class="page-footer font-small mdb-color dark-1 pt-4">
+    <footer class="page-footer font-small pt-4">
       <div class="container text-center text-md-left">
 
         <!-- Grid row -->
@@ -77,22 +77,32 @@
             <ul class="list-unstyled">
               <li>
                 <p>
-                  <a href="#!">PROJECTS</a>
+                  <a href="./index.php!">HOME</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="#!">ABOUT US</a>
+                  <a href="./about.php!">ABOUT US</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="#!">BLOG</a>
+                  <a href="#!">COMMUNITY</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="#!">AWARDS</a>
+                  <a href="./projects.php!">PROJECTS</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="./Reg_form.php!">MEMBERSHIP</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="#!"> SERVICES</a>
                 </p>
               </li>
             </ul>
@@ -111,19 +121,23 @@
             <ul class="list-unstyled">
               <li>
                 <p>
-                  <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                  <i class="fas fa-home mr-3"></i> Orudu Junction, Opeilu Road, Agbado</p>
               </li>
               <li>
                 <p>
-                  <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                  <i class="fas fa-mail mr-3"></i> P. O. Box 173, Ifo, Ogun State, Nigeria</p>
               </li>
               <li>
                 <p>
-                  <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                  <i class="fas fa-envelope mr-3"></i> stjuliusagbado@gmail.com</p>
               </li>
               <li>
                 <p>
-                  <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                  <i class="fas fa-phone mr-3"></i> + 234 706 155 7070</p>
+              </li>
+              <li>
+                <p>
+                  <i class="fas fa-facebook mr-3"></i> St Julius Agbado</p>
               </li>
             </ul>
           </div>
@@ -140,7 +154,7 @@
   <!-- Footer Links -->
     
   <!--Footer Media handles -->
-    <footer class="page-footer font-small cyan darken-3">
+    <footer class="page-footer font-small">
       <div class="container">
 
         <!-- Grid row-->

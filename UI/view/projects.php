@@ -1,51 +1,106 @@
 <?php include("./includes/header.php"); ?>
 
-<div id="carouselAbout" class="carousel slide carousel-slide" data-ride="carousel">
-  <div class="carousel-inner" id="carouselSlide">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://i.pinimg.com/236x/11/d1/46/11d146672b8b11328b35b59a094b3812.jpg"
-        alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.pinimg.com/236x/0e/b2/d7/0eb2d734854c89ce5fbb931c2b79e592.jpg"
-        alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg"
-        alt="Third slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://i.pinimg.com/236x/6b/c6/63/6bc6636ef062667c7ccd2a09b64205dd.jpg"
-        alt="Fourth slide">
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid pt-5">   
-    
-    <div class="quotes text-align-center">
+<div class="container-fluid">   
+  <h3 class="project_head pb-5 pt-5 pl-5">Projects</h3>
+  <div class="project_subhead ">
         <h2>"Build a House for the Lord"</h2>  
+  </div>
+  <div class="container pt-3">
+  <div class="project_body p-1">
+            <p class="body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate delectus nostrum sit aperiam animi dolores, 
+                maxime et perspiciatis rerum quam at voluptates vero quisquam. 
+                Repellendus tempora nostrum hic architecto eaque!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Cupiditate delectus nostrum sit aperiam animi dolores, 
+                maxime et perspiciatis rerum quam at voluptates vero quisquam. 
+                Repellendus tempora nostrum hic architecto eaque!
+            </p>
+
+        <div class="container">
+          <div class="row pt-3  pb-3 mx-auto">
+              <div class="col-md-3 as landscape">Church Building</div>
+              <div class="col-md-3 at landscape">Marian Grotto</div>
+              <div class="col-md-3 au landscape">School and Educational Centre</div>
+              <div class="col-md-3 av landscape">Hall/ Retreat Centre</div>
+          </div>
+        </div>
     </div>
-    <div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Cupiditate delectus nostrum sit aperiam animi dolores, 
-            maxime et perspiciatis rerum quam at voluptates vero quisquam. 
-            Repellendus tempora nostrum hic architecto eaque!
+
+    <hr class="clearfix">
+    <div class="pt-5 pb-5">
+      <div class="col-md-* as landscape_large p-5">Church Building</div>
+       <div class="landscape_detail">
+          <p class="body p-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quibusdam corporis doloribus, soluta necessitatibus deleniti 
+            nesciunt odit sapiente modi sit veritatis officiis repudiandae voluptate, 
+            in accusantium aperiam cumque, iure cum ipsam!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quibusdam corporis doloribus, soluta necessitatibus deleniti 
+            nesciunt odit sapiente modi sit veritatis officiis repudiandae voluptate, 
+            in accusantium aperiam cumque, iure cum ipsam!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Quibusdam corporis doloribus, soluta necessitatibus deleniti 
+            nesciunt odit sapiente modi sit veritatis officiis repudiandae voluptate, 
+            in accusantium aperiam cumque, iure cum ipsam!
+          </p>
+      </div>
+    </div>
+    <div class="col-md-* at landscape_large p-5"> Marian Grotto</div>
+      <div class="landscape_detail">
+        <p class="body p-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
         </p>
-        <div class="row">
-            <div class="col-sm-6 as blue">ggg</div>
-            <div class="col-sm-6 at red">gg</div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 au green">uuu</div>
-            <div class="col-sm-6 av yellow">uu</div>
-        </div>
-    </div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+      </div>
+    <div class="col-md-* au landscape_large p-5"> School and Educational Centre</div>
+    <div class="landscape_detail">
+        <p class="body p-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+        </p>
+      </div>
+    <div class="col-md-* av landscape_large p-5"> Hall/ Retreat Centre</div>
+    <div class="landscape_detail">
+        <p class="body p-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+          Provident enim, necessitatibus quaerat nobis labore minus eaque quo 
+          similique sit facere at fugit, molestiae earum, ipsam quod? 
+          Doloribus error eveniet iste?
+        </p>
+      </div>
+  </div>
+    
 </div>
 
 <?php include("./includes/footer.php"); ?>

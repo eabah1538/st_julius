@@ -1,9 +1,9 @@
   <?php include("./includes/header.php"); ?>
  
 <div class="myHero">
-    <div class="row" style="padding-top: 35px !important;">
-      <div class="col-md-8"></div>
-      <div class="col-md-4">
+  <div class="row" style="padding-top: 35px !important;">
+     <div class="col-md-8"></div>
+     <div class="col-md-4">
 
            <!-- Tab -->
         <div class="card heroContent m-5">
@@ -63,14 +63,16 @@
           <div class="col-md-8">
             <h3 class="welcomeHead pt-3">Welcome Address from the Priest</h3>
             <div class="welcomeBody">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Est illum nesciunt ad aspernatur mollitia quis cupiditate 
-            cum maiores harum quod, praesentium ut officiis provident voluptatibus,
-             molestiae reiciendis dignissimos repellat quam.
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Est illum nesciunt ad aspernatur mollitia quis cupiditate 
-            cum maiores harum quod, praesentium ut officiis provident voluptatibus,
-             molestiae reiciendis dignissimos repellat quam
+              <p class="body" style="font-size: 1.5em">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Est illum nesciunt ad aspernatur mollitia quis cupiditate 
+                  cum maiores harum quod, praesentium ut officiis provident voluptatibus,
+                  molestiae reiciendis dignissimos repellat quam.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Est illum nesciunt ad aspernatur mollitia quis cupiditate 
+                  cum maiores harum quod, praesentium ut officiis provident voluptatibus,
+                  molestiae reiciendis dignissimos repellat quam
+              </p>
             </div>
             <p id="Universalis_Mass_G.source"></p>
           </div>
@@ -133,11 +135,13 @@
             
         </div>  
 
-        <div class="col-md-6" style="font-size: 1.5em">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Atque aperiam repellat dicta? Praesentium, perspiciatis est 
-            necessitatibus omnis, molestiae expedita, eos aperiam ad numquam
-             saepe quos vero. Amet doloremque laboriosam ad. 
+        <div class="col-md-6" >
+            <p class="body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Atque aperiam repellat dicta? Praesentium, perspiciatis est 
+              necessitatibus omnis, molestiae expedita, eos aperiam ad numquam
+              saepe quos vero. Amet doloremque laboriosam ad. 
+            </p>
         </div>     
       </div>
 
