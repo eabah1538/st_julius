@@ -30,6 +30,7 @@ fetch(url)
     .then(function(data){
 
       data.articles.map((news) => {
+        console.log(news.title);
         nt.innerHTML = news.title;
       });
 
