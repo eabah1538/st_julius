@@ -12,24 +12,23 @@
     }else{
         echo 'Cookie not set <br>';
     }
-
 ?>
 
 <body class="Forms">
-  <div class='container m-5'>
+  <div class='jumbotron p-5 m-5'>
     <form action='../server/st_julius_bknd.php' method='POST'>
         
     <?php
         include('../../server/st_julius_bknd.php');
     ?>
-     <div id='form_header'>
+
+     <div id='form_header'>      
         <Label>
-            <h1  id='reg'> REGISTRATION FORM</h1>
-        
+            <h1 id='reg'> REGISTRATION FORM</h1>
             <h5>  PERSONAL INFORMATION  </h5>
         </Label>
 
-      </div class="card myCard mn-auto">             
+      </div class="container m-5 p-5">             
         <div class="md-form form-lg">
             <p>SURNAME </p>
             <input type="text" id="surname" name='surname'class="form-control form-control-lg "required>
@@ -53,28 +52,60 @@
                 Female
             </div>
         </div>        
-        <div class="md-form form-lg">
+        <div class="md-form lg-outline input-with-post-icon datepicker">
             <p>DATE OF BIRTH </p>
-            <input type="date" id="dob" name= "dob" class="form-control form-control-lg "required>
+            <input placeholder="Select date" type="date" id="dob" class="form-control form-control-lg">
         </div>
-  
-    ADDRESS <br> &ThickSpace; <textarea name="address" id="address" cols="40" rows="10"></textarea><br><br>
-
+        <div class="form-group shadow-textarea">
+            <p> ADDRESS</p>
+            <textarea class="form-control z-depth-1" id="address" rows="3" placeholder="Your residential address here..."></textarea>
+        </div>
         <div class="md-form form-lg">
             <p>EMAIL </p>
             <input type="email" id="email"name= "email" class="form-control form-control-lg "required>
         </div>
-    
-    PHONE NUMBER 1<br> &ThickSpace; <input type="tel" name="mobile"><br><br>
-    PHONE NUMBER 2 <br>&ThickSpace; <input type="tel" name="mobile"><br><br>
-    HAVE YOU RECIEVED THE SACRAMENTS OF: <br>&ThickSpace;Baptism&ThickSpace;<input type="checkbox" name="sacraments_recieved" value="baptism">
-                                            &ThickSpace;Confirmation&ThickSpace;<input type="checkbox" name="sacraments_recieved" value="confirmation">
-                                            &ThickSpace;Eucharist&ThickSpace;<input type="checkbox" name="sacraments_recieved" value="eucharist">
-                                            &ThickSpace;Martrimony&ThickSpace;<input type="checkbox" name="sacraments_recieved" value="matrimony"><br><br>
-    MARITAL STATUS <br> &ThickSpace;&ThickSpace;Single&ThickSpace;<input type="radio" name='status' value="single">
-                                    &ThickSpace;Married&ThickSpace;<input type="radio" name="status" value="married">
-                                    &ThickSpace;Separated&ThickSpace;<input type="radio" name="status" value="separated"><br><br>
-
+        <div class="md-form">
+            <p> PHONE NUMBER 1</p> 
+            <input type="number" id="tel" name="mobile1" class="form-control">             
+        </div>
+        <div class="md-form">
+            <p> PHONE NUMBER 2</p> 
+            <input type="number" id="tel" name="mobile2" class="form-control">             
+        </div>
+        <div>
+            <p> HAVE YOU RECIEVED THE SACRAMENTS OF:</p>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="materialChecked2" checked>
+                <label class="custom-control-label" for="materialChecked2">Baptism</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="materialInline1">
+                <label class="custom-control-label" for="materialInline1">Confirmation</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="materialInline2">
+                <label class="custom-control-label" for="materialInline2">Eucharist</label>
+            </div>
+            <div class="custom-control custom-checkbox custom-control-inline">
+                <input type="checkbox" class="custom-control-input" id="materialInline3">
+                <label class="custom-control-label" for="materialInline3">Martrimony</label>
+            </div>
+        </div>
+        <div class="md-form form-lg">
+            <p>MARITAL STATUS</p>
+            <div class="form-check form-control-lg">
+                <input type="radio" class="form-check-input" id="single" name="status">
+                Single
+            </div>
+            <div class="form-check form-control-lg">
+                <input type="radio" class="form-check-input" id="married" name="status" checked>
+                Married
+            </div>
+            <div class="form-check form-control-lg">
+                <input type="radio" class="form-check-input" id="separated" name="status" checked>
+                Separated
+            </div>
+        </div>
         <div class="md-form form-lg">
             <p>SPOUSE NAME </p>
             <input type="text" id="spouse_name" name='spouse_name' class="form-control form-control-lg "required>
@@ -96,15 +127,36 @@
             <input type="text" id="nationality" name='nationality' class="form-control form-control-lg "required>
         </div>
 
-         <input type="submit" value="Next" href="Reg_form_p2">
+        <div class= 'col-auto'>
+            <input type="submit" value="Next" href="Reg_form_p2">
+        </div>
+
+        <br>
+  
+
+
+        
+        <div class="md-form md-bg">
+        <input type="text" id="formBg1" class="form-control">
+        <label for="formBg1">Example label</label>
+        </div>
+
+        <div class="md-form md-bg">
+           
+            <input type="text" id="surname" name='surname'class="form-control form-control-lg "required>
+            <label for="formBg1">Example label</label>
+            <p>SURNAME </p>
+        </div>
 
     </form>
   </div>
-                <br>
-  <a href="Reg_form_p2"> page 1/2</a>
+
 
   </div>
   <?php include("./includes/footer.php") ?>
+
+
+
 
 
 </body>
