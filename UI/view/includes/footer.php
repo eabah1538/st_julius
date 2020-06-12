@@ -147,7 +147,7 @@
         </div>
         <!-- Grid row -->
 
-      </div>
+       </div>
       </div>
     </Footer>
 
