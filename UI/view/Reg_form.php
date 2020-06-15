@@ -31,7 +31,7 @@
         
             <h5>  PERSONAL INFORMATION  </h5>
         </Label>
-      </div>
+      </div class="card myCard mn-auto">
     SURNAME <br> &ThickSpace;&ThickSpace; <input type="text" name= 'surname'required><br><br>
     FIRST NAME <br> &ThickSpace; <input type="text" name= 'firstname' required><br><br>
     OTHER NAMES <br> &ThickSpace; <input type="text" name= 'othername' required><br><br>

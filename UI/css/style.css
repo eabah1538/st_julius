@@ -3,93 +3,193 @@
  }
  
  body {
-   background-attachment: fixed;
- }
- 
- h1, h5 {
-    color: rgb(131, 79, 11);
-    font-weight: bolder;
- }
- 
- #landingPage {
-     text-align: right;
-     background-color: rgba(0, 0, 0, 0.363);
-     background-position: center ;
-     background-repeat: no-repeat;
-     background-size: cover; 
-     height: 200px;
-     box-shadow: 5px 5px 5px black;
- }
- div header nav{
-     background-color: rgb(131, 79, 11);
+   background-attachment: fixed;   
+   background: none; 
  }
 
- a li{
-     padding: 5px;
-     text-align: center;
-     list-style: none;
-     box-shadow: 2px 2px 2px gray,
-                 inset 2px 2px 5px rgb(70, 34, 230);
-     
+ h1, h2, h3, h5 {
+    color: #e4932a;
+    font-weight: bolder;
+ }
+
+ nav{
+     font-family: Arial, Helvetica, sans-serif;
+     transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+ }
+
+ .nav-item{
+     font-size: 1.4em;
+ }
+
+ nav.faded{
+    opacity:0;
+ }
+
+ .nav-link:hover{
+     border-bottom: 2px solid#e4932a;
+ }
+
+ .big-text{
+     font-size: 5em;
+     color: white;
+     margin-top: 100px;
+     padding: 100px 100px 20px 100px;
+     font-weight: 100;
+ }
+
+ .small-text{
+     color: rgb(131, 79, 11);
+     font-style: italic;
+     font-size: 2em;
+     padding-left: 100px;
  }
  
+ .myHero{
+    height: 100vh;
+    background-image: url('../../assets/interior2.jpg');
+    background-size: 100%;
+    background-position: bottom;
+    background-attachment: fixed;   
+    margin: 0;
+    flex: 1;
+}
+
+.bs{
+    box-shadow: none;
+}
+
+.myMask{
+    background-color: #00000099;
+    height: inherit;
+}
+
+.heroContent{
+    height: 400px;
+    opacity: 0.8;  
+ }
+
+.textInHero{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeHead, .about_us_head, .project_head{
+   font-size: 3em !important;
+   font-weight: 900;
+}
+
+    p.body{
+    font-size: 1.3em;
+    min-height: 100px;
+}
+
+.quotes{
+    font-style: italic;
+    text-align: center;
+}
+
+.quoteHead{
+    text-align: center !important;
+}
+
+.testimony{
+    background-image: url('../../assets/interior.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
  button { 
      background-color: rgb(131, 79, 11);
      color: bisque;
      width: 150px;
  }
- div.container-fluid{
-     background-size: cover;
-     background-attachment: fixed;
- 
- }
- 
- .myHero{
-     height: 500px;
-     background-image: url('../../assets/interior2.jpg');
-     background-size: 1200px;
-     background-position: bottom;
-     background-attachment: fixed;
-     margin: 0;
-     flex: 1;
- }
- 
  .myCards{
      min-height: 100px;
  }
 
  .myCard{
      min-height: 100px;
+     padding : 10px;
 
  }
  
- .textInHero{
+ .about_us{
+    background-image: url("../../assets/side_about.jpg");
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ 
+ .d-block{
+     /* opacity: 0.8; */
+     max-height: 250px;
+ }
+
+ .p_priest{
+    background-image: url("https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=face-facial-hair-fine-looking-guy-614810.jpg&fm=jpg");
+ }
+
+ .a_priest{
+     background-image: url("../../assets/aP.jpg");
+ }
+
+ .catechist{
+     background-image: url("https://images.pexels.com/photos/2232981/pexels-photo-2232981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ }
+
+ .portriat{
      color: white;
-     align-items: center;
-     justify-content: center;
- }
-
- .welcomeHead{
-    font-size: 3em !important;
- }
-
- .welcomeBody{
-     font-size: 1.5em;
- }
-
- .testimony{
-     background-image: url('../../assets/interior.jpg');
-     background-repeat: no-repeat;
+     justify-content: end;
+     padding: 180px 0px 60px 100px;
+     font-size: 1.2em;
+     height: 200px;
      background-size: cover;
+     background-repeat: no-repeat;
      background-position: center;
  }
- 
- .quotes{
-     font-style: italic;
-     text-align: center;
+
+ .landscape{
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     justify-content: center;
+     height: 200px;
+     padding: 180px 0 60px 100px;
+     color: white;
  }
 
- .quoteHead{
-     text-align: center !important;
+ .project_subhead{
+     text-align: center;
+ }
+ .as{
+     background-image: url("https://images.pexels.com/photos/2675266/pexels-photo-2675266.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ }
+ .at{
+     background-image: url("https://as1.ftcdn.net/jpg/02/88/54/58/500_F_288545814_yJBQMt3guOwOVSbJmNHmmzoDBU5jAWvy.jpg");
+ }
+ .au{
+     background-image: url("https://images.pexels.com/photos/3009993/pexels-photo-3009993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+ }
+ .av{
+    background-image: url("https://images.pexels.com/photos/70419/pexels-photo-70419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+ .landscape_large{
+     min-height: 500px !important;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     color: white;
+ }
+ .page-footer{
+    background-color: #e5b494 !important;
+ }
+ .footer-copyright{
+    background: #f48236d1;
  }
