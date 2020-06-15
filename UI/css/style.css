@@ -21,7 +21,7 @@
     flex: 1;
 }
 
-c.heroContent{
+.heroContent{
     height: 400px;
     opacity: 0.8;  
  }
@@ -32,14 +32,15 @@ c.heroContent{
     justify-content: center;
 }
 
-.welcomeHead, .about_us_head, .project_head{
+.welcomeHead, .about_us_head, .project_head,
+    .contactHead{
    font-size: 3em !important;
    font-weight: 900;
 }
 
-    p.body{
+p.body{
     font-size: 1.3em;
-    min-height: 100px;
+    /* min-height: 100px; */
 }
 
 .quotes{
