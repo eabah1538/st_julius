@@ -9,21 +9,7 @@
         <div class="row">
 
           <!--Grid column-->
-          <div class="col-md-6 mb-4">
-
-            <!-- Form -->
-            <form class="form-inline">
-              <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
-                aria-label="Search">
-              <i class="fas fa-search" aria-hidden="true"></i>
-            </form>
-            <!-- Form -->
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 ml-auto">
 
             <form class="input-group">
               <input type="text" class="form-control form-control-sm" id='email' placeholder="Your email"
@@ -151,58 +137,6 @@
       </div>
     </Footer>
 
-  <!-- Footer Links -->
-    
-  <!--Footer Media handles -->
-    <footer class="page-footer font-small">
-      <div class="container">
-
-        <!-- Grid row-->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-md-12 py-5">
-          <div><h5 class="font-weight-bold text-uppercase mb-1 flex-center">Follow Us</h5></div>
-            <div class="mb-5 flex-center">
-
-              <!-- Facebook -->
-              
-              <a class="fb-ic">
-                <i class="fab fa-facebook-square fa-lg white blue-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-            
-              <!-- Twitter -->
-              <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg light-blue-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i class="fab fa-google-plus-g fa-lg red white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <!--Linkedin -->
-              <a class="li-ic">
-                <i class="fab fa-linkedin-in fa-lg blue white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg orange-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-              <!--Pinterest-->
-              <a class="pin-ic">
-                <i class="fab fa-pinterest fa-lg  red-text fa-2x"> </i>
-              </a>
-
-            </div>
-          </div>
-          <!-- Grid column -->
-
-        </div>
-        <!-- Grid row-->
-
-      </div>
-    </footer>
-  <!--Footer Media handles -->
-
 
   <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
@@ -221,6 +155,28 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
       <script type="text/javascript" src="../js/script.js"></script>
+  
+  <script>
+    $(document).ready(function(){       
+      var scroll_start = 0;
+      var startchange = $('#startchange');
+      var offset = startchange.offset();
+        if (startchange.length){
+      $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > offset.top) {
+              $("nav").css({backgroundColor: '#fff'});
+              $("nav").addClass('navbar')
+              $("a").removeClass('white-text');
+          } else {
+              $('nav').css({backgroundColor: 'transparent', boxShadow: 'none'});
+              $("a").css({color: '#dd9d48'});
+          }
+      });
+        }
+    });
+    
+  </script>
   
 </body>
 </html>

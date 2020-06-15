@@ -39,10 +39,10 @@ if ($db_conn){
     echo 'Data inserted';
     // header ('location: Reg_form.php');
 
-    }else{
-    echo 'Error inserting data'. '<br>'. $sj_query. '<br>'.
-        mysqli_errno($db_conn);
-    }
+    // }else{
+    // echo 'Error inserting data'. '<br>'. $sj_query. '<br>'.
+    //     mysqli_errno($db_conn);
+    // }
 
 
 }else{

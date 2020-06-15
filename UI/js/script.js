@@ -98,3 +98,9 @@
     });
     
 // Card for News Feeds
+
+
+const scrollToView = (id) => {
+  let selected = document.querySelector(id);
+  selected.scrollIntoView({behavior: "smooth", block: "center"});
+}
