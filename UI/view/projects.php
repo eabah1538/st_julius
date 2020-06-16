@@ -1,7 +1,7 @@
 <?php include("./includes/header.php"); ?>
 
 <div class="container-fluid">   
-  <div style="margin-top: 50px"><h3 class="project_head pb-5 pt-5 pl-5">Projects</h3></div>
+  <div style="margin-top: 50px"><h3 class="project_head pb-5 pt-5 pl-5" id="startchange">Projects</h3></div>
   <div class="project_subhead ">
         <h2>"Build a House for the Lord"</h2>  
   </div>

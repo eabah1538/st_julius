@@ -25,7 +25,7 @@
     <div class="row">
         <div class="col-md-3 blue about_us"></div>
         <div class="col-md-9 p-5">
-            <h3 class="about_us_head pt-3 pl-4">About us</h3>
+            <h3 class="about_us_head pt-3 pl-4" id="startchange">About us</h3>
             <div class="about_us_body p-5">
                 <div class="row">
                   <div class="col-sm-*">

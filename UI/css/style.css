@@ -113,11 +113,12 @@
 
  .myCard{
      min-height: 100px;
-<<<<<<< HEAD
      padding : 10px;
 
-=======
->>>>>>> a0c676109c9e0fca8b4a1780e47811d7a781929c
+ }
+
+ .link-text {
+     color : #dd9d48 !important;
  }
  
  .about_us{

@@ -93,29 +93,29 @@
           <!-- Links -->
           <ul class="navbar-nav ml-auto mr-auto">
             <li class="nav-item">
-              <a class="nav-link white-text" href="./index.php">Home
+              <a class="nav-link link-text" href="./index.php">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link white-text" href="./about.php">About</a>
+              <a class="nav-link link-text" href="./about.php">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link white-text" href="#">Communities</a>
+              <a class="nav-link link-text" href="#">Communities</a>
             </li>
           </li>
           <li class="nav-item">
-            <a class="nav-link white-text" href="./projects.php">Projects</a>
+            <a class="nav-link link-text" href="./projects.php">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link white-text" href="./Reg_form.php">Membership</a>
+            <a class="nav-link link-text" href="./Reg_form.php">Membership</a>
           </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link white-text" href="#">Services</a>
+          <a class="nav-link link-text" href="#">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link white-text" href="#">Contact</a>
+          <a class="nav-link link-text" href="#">Contact</a>
         </li>
 
             <!-- Dropdown -->

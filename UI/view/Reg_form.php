@@ -20,7 +20,7 @@
     <form action='../server/st_julius_bknd.php' method='POST'>
         
     <?php
-        include('../../server/st_julius_bknd.php');
+        // include('../../server/st_julius_bknd.php');
     ?>
      <div id='form_header'>
         <Label>
@@ -104,7 +104,9 @@
   <a href="Reg_form_p2"> page 1/2</a>
 
   </div>
-  <?php include("./includes/footer.php") ?>
+  <?php 
+//   include("./includes/footer.php") 
+  ?>
 
 
 </body>
