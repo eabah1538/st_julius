@@ -1,4 +1,4 @@
-  <?php include("./includes/header.php"); ?>
+ <?php include("./includes/header.php"); ?>
  
 <div class="container-fluid myHero">
   <div class="row myMask" style="padding-top: 35px !important;">
