@@ -1,11 +1,12 @@
-<?php include("./includes/header.php"); ?>
+<div class="pb-5"id="startchange">
+  <?php include("./includes/header.php"); ?>
+</div>
 
 <div class="container contact_us pt-5 ">
-   <div class="row">
-     <div class="col-md-3  "> </div>
+   <div class="row">     
      <div class="col-md-9 container">
         <div>
-          <h3 class="contactHead ">Contact us</h3>
+          <h3 class="contact_head ">Contact us</h3>
         </div>
 
         <div class= " jumbotron">
@@ -40,8 +41,12 @@
                     St Julius Agbado
                   </p>
                 </li>
-          </ul>        
+          </ul> 
         </div>
      </div>
+
+     <div class="col-md-3 "> </div>
    </div>
 </div>
+
+<?php include("./includes/footer.php"); ?>

@@ -1,35 +1,23 @@
 <?php include("./includes/header.php"); ?>
+    <div id="startchange" class= "p-5">
+        
+    </div>
 
-<?php
-//Setting the cookie variables...
-    $cookie_name = 'nyCookie';
-    $cookie_value = '';
-    $cookie_time = time() + 86400 * 10;
-    setcookie($cookie_name, $cookie_value, $cookie_time,'/');
-    // setcookie('test_cookie', 'test_time()')
-    if (isset($_COOKIE)){
-        echo 'Cookie enabled <br>';
-    }else{
-        echo 'Cookie not set <br>';
-    }
-?>
-
-<body class="Forms">
-  <div class='jumbotron p-5 m-5'>
+  <div class='container' >
     <form action='../server/st_julius_bknd.php' method='POST'>
         
-        <?php
-            include('../../server/st_julius_bknd.php');
-        ?>
-
-        <div id='form_header'>      
-            <Label>
+    <?php
+        include('../../server/st_julius_bknd.php');
+    ?>
+        <div class=" jumbotron w-75 m-auto">
+           <div id='form_header'>      
+            <Label> 
                 <h1 id='reg'> REGISTRATION FORM</h1>
                 <h5>  PERSONAL INFORMATION  </h5>
             </Label>
-        </div>
+           </div>
 
-        <div class="container m-5 p-5">             
+        
             <div class="md-form form-lg">
                 <p>SURNAME </p>
                 <input type="text" id="surname" name='surname'class="form-control form-control-lg "required>
@@ -128,31 +116,14 @@
                 <input type="text" id="nationality" name='nationality' class="form-control form-control-lg "required>
             </div>
 
-            <div class= 'col-auto'>
-                <input type="submit" value="Next" href="Reg_form_p2">
+            <div  class="input-group-append pt-5">
+                <button class="btn btn-sm btn-outline-orange" >Next</button>
+                <!-- <input type="submit" value="Next" href="Reg_form_p2"> -->
             </div>
-            </div>
-
-        <br>
+        </div>
   
-
-
-        
-            <!-- <div class="md-form md-bg">
-            <input type="text" id="formBg1" class="form-control">
-            <label for="formBg1">Example label</label>
-            </div>
-
-            <div class="md-form md-bg">
-            
-                <input type="text" id="surname" name='surname'class="form-control form-control-lg "required>
-                <label for="surname">Example label</label>
-                <p>SURNAME </p>
-            </div> -->
-
     </form>
   </div>
-
+ 
   <?php include("./includes/footer.php") ?>
 
-</body>

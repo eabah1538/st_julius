@@ -2,9 +2,10 @@
     padding: 0px;
  }
  
- body{
- background-attachment: fixed;   
- background: none;
+ body {
+   background-attachment: fixed;   
+   background: url("../../assets/Pope_Julius_II.jpg");
+   opacity: transparent;
  }
  h1, h2, h3, h5 {
     color: #e4932a;
@@ -12,36 +13,38 @@
  }
 
  nav{
-    font-family: Arial, Helvetica, sans-serif;
-    transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
+     font-family: Arial, Helvetica, sans-serif;
+     transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+ }
+ /* .nav-item .:hover {
+    margin-right: 35px;
+  }
+    */
+  /* .dropdown-menu::after {
+     transition: transform 0.15s linear; 
+  }
+   
+  .show.dropdown .dropdown-menu::after {
+    transform: translateY(3px);
+  }
+ .nav-item{
+     font-size: 1.4em;
+ } */
 
-.nav-item{
-    font-size: 1.4em;
-}
- 
- .myHero{
-    height: 500px;
-    background-image: url('../../assets/interior2.jpg');
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    margin: 0;
-    flex: 1;
-}
-
-nav.faded{
+ nav.faded{
     opacity:0;
  }
 
- .nav-link:hover{
-     border-bottom: 2px solid#e4932a;
+ .nav-item:hover .nav-link{
+     border-bottom: 1px solid#e4932a;
+     padding: 0;
+     margin: 0;
  }
 
  .big-text{
-     font-size: 5em;
+     font-size: 4em;
      color: white;
      margin-top: 100px;
      padding: 100px 100px 20px 100px;
@@ -54,7 +57,7 @@ nav.faded{
      font-size: 2em;
      padding-left: 100px;
  }
-
+ 
  .myHero{
     height: 100vh;
     background-image: url('../../assets/interior2.jpg');
@@ -85,14 +88,20 @@ nav.faded{
     justify-content: center;
 }
 
-.welcomeHead, .about_us_head, .project_head{
-   font-size: 3em !important;
+.welcomeHead, .about_us_head, .project_head,
+.contact_head, .communities_head, .services_head {
+   font-size: 2em !important;
    font-weight: 900;
 }
 
-    p.body{
-    font-size: 1.3em;
+p.body{
+    font-size: 1em;
     min-height: 100px;
+    color: rgb(173, 106, 18);
+}
+u div a {
+    line-height: 30px;
+    color: rgb(173, 106, 18);
 }
 
 .quotes{
@@ -124,6 +133,12 @@ nav.faded{
  .myCard{
      min-height: 100px;
      padding : 10px;
+
+ }
+
+ .nav-link {
+     color : #ffffff;
+     padding: 0px;
  }
 
 .about_us{
@@ -201,3 +216,16 @@ nav.faded{
 }
 .footer-copyright{
    background: #f48236d1;
+   }
+.communities_body{
+    background-image: url("https://cdn.dribbble.com/users/1841918/screenshots/10485272/media/a24eb75b40f5f6a3c6d465ad7b3edc8c.png");
+    }
+.services_body {
+    background-image: url("https://cdn.dribbble.com/users/4564986/screenshots/10768036/media/1191ecaa2fa2d37973f2b74b484a4f1b.jpg");
+}
+.communities_body, .services_body {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

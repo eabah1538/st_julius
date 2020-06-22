@@ -1,7 +1,7 @@
 <!-- Footers -->
   <!-- footer signup -->
     <footer class="page-footer font-small pt-4">
-    <h5 class=' flex-center mb-3 p-2'>Sign up for our newsletter </h5>
+    <h5 class=' flex-center mb-3'>Sign up for our newsletter </h5>
       <!-- Footer Search -->
       <div class="container">
 
@@ -102,7 +102,7 @@
           <div class="col-md-5 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
             <!-- Contact details -->
-            <h5 class="font-weight-bold text-uppercase mb-4" font-color='black'>Address</h5>
+            <h5 class="font-weight-bold text-uppercase mb-4 clr-black" font-color='black'>Address</h5>
 
             <ul class="list-unstyled">
               <li>
@@ -162,17 +162,23 @@
       var startchange = $('#startchange');
       var offset = startchange.offset();
         if (startchange.length){
-      $(document).scroll(function() { 
-          scroll_start = $(this).scrollTop();
-          if(scroll_start > offset.top) {
-              $("nav").css({backgroundColor: '#fff'});
-              $("nav").addClass('navbar')
-              $("a").removeClass('white-text');
-          } else {
-              $('nav').css({backgroundColor: 'transparent', boxShadow: 'none'});
-              $("a").css({color: '#dd9d48'});
-          }
-      });
+          $(document).scroll(function() { 
+              scroll_start = $(this).scrollTop();
+              if(scroll_start > offset.top) {
+                  $("nav").css({backgroundColor: '#fff'});
+                  $("nav").addClass('navbar')
+                  $(".nav-link").removeClass('white-text');
+                  $(".nav-link").css({color: '#dd9d48'});
+              } else {
+                  $('nav').css({backgroundColor: 'transparent', boxShadow: 'none'});
+                  if (document.URL.endsWith("index.php")){
+                     $(".nav-link").css({color: '#fff'});
+                  }else{
+                    $(".nav-link").css({color: '#000'});
+                  }
+                 
+              }
+          });
         }
     });
     

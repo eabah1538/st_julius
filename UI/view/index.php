@@ -23,25 +23,32 @@
         
        <!-- Welocome address -->
           <div class="col-md-8">
-            <h3 class="welcomeHead pt-3">Welcome Address from the Priest</h3>
+            <h3 class="welcomeHead pt-3">Welcome Newcomers,</h3>
             <div class="welcomeBody">
-              <p class="body" style="font-size: 1.5em">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Est illum nesciunt ad aspernatur mollitia quis cupiditate 
-                  cum maiores harum quod, praesentium ut officiis provident voluptatibus,
-                  molestiae reiciendis dignissimos repellat quam.
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  Est illum nesciunt ad aspernatur mollitia quis cupiditate 
-                  cum maiores harum quod, praesentium ut officiis provident voluptatibus,
-                  molestiae reiciendis dignissimos repellat quam
-              </p>
+              <p class="body" style="font-size: 1em">
+               <br>
+                  Thank you for your interest in our parish. Whether you’re just visiting us for a brief time, 
+                  looking for a new parish home, are returning to the practice of your Catholic faith or are interested 
+                  in finding out more about the Catholic Church, we’re happy to have you here. <br>
+                  
+                  A parish is a community of believers and a spiritual family that is supportive and loving. 
+                  It can be a place to grow spiritually, to put your faith in action, and to use our gifts of time 
+                  and talent as disciples of Christ. We look forward to answering any questions you may have. 
+                  In the meantime, please look through the resources we’ve made available on these pages: <br><br>
+                  
+                  <u>
+                    <div> <a href="">  I want to register as a new parishioner.</a> </div>
+                    <div> <a href="">  I’m a returning Catholic.</a> </div>
+                    <div> <a href="">  I’m interested in learning more about the Catholic Church.</a></div>
+                    <div> <a href="">  I want to become Catholic.</a> </div>
+              </p></u>
             </div>
-            <p id="Universalis_Mass_G.source"></p>
+            <!-- <p id="Universalis_Mass_G.source"></p> -->
           </div>
         <!-- Welcome address -->
 
         <!-- News Feeds links -->
-        <div class="col-md-4 p-3"> 
+        <div class="col-md-4 p-3 "> 
           <div class='card newsFeed p-4'>
                 <h2 class="lead">
                   News Feeds
@@ -78,7 +85,7 @@
 
           <!-- Saint of the day -->
               <div class="col-md-6">
-                <div class="card myCard" id='saint_of_the_day'>
+                <div class="card myCard" id="liturgical_calendar_tomorrow">
                   <h4>
                     <div id='liturgical-date-tmr'></div>
                     <div id='liturgical-celebration-tmr'></div>

@@ -22,7 +22,7 @@
     lc1.innerHTML = data.celebrations[0].colour;
 
     sn1.style.backgroundColor = data.celebrations[0].colour;
-    data.celebrations[0].colour == 'white' ? sn1.style.color == 'black': sn1.style.color == 'white';   
+    data.celebrations[0].colour == 'white' ? sn1.style.color = 'black': sn1.style.color = 'white';   
 
   })
  
@@ -39,7 +39,7 @@
   lc2.innerHTML = data.celebrations[0].colour;
 
   sn2.style.backgroundColor = data.celebrations[0].colour;
-  data.celebrations[0].colour == 'white' ? sn2.style.color == 'black': sn2.style.color == 'white'; 
+  data.celebrations[0].colour == 'white' ? sn2.style.color = 'black': sn2.style.color = 'white'; 
       
   })
 

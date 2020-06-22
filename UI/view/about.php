@@ -1,5 +1,3 @@
-<?php include("./includes/header.php") ?>
-
 <!-- <div id="carouselAbout" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner" id="carouselSlide">
     <div class="carousel-item active">
@@ -20,15 +18,19 @@
     </div>
   </div>
 </div> -->
-
+<?php include("./includes/header.php") ?>
 <div class="container-fluid pt-5">
+  <div class= "pb-5" id="startchange">
+    
+  </div>
+
     <div class="row">
         <div class="col-md-3 blue about_us"></div>
         <div class="col-md-9 p-5">
-            <h3 class="about_us_head pt-3 pl-4">About us</h3>
-            <div class="about_us_body p-5">
-                <div class="row">
-                  <div class="col-sm-*">
+            <h3 class="about_us_head pl-4" >About us</h3>
+            <div class="about_us_body p-4">
+                <!-- <div class="row">
+                  <div class="col-sm-*"> -->
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Praesentium nesciunt porro aliquam eligendi libero accusantium 
@@ -40,8 +42,8 @@
                         facilis sed dolore voluptatibus accusamus laudantium.
                     </p>
                     
-                  </div>
-                </div>
+                  <!-- </div>
+                </div> -->
             </div>
             <h3 class="pastoralTeam pb-3 pt-3 mx-auto">Meet Our Pastoral Team</h3>
             <div class="row">
@@ -51,6 +53,7 @@
             </div>
         </div>
     </div>
-</div>
 
+    
+</div>
 <?php include("./includes/footer.php") ?>

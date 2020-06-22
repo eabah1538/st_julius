@@ -25,9 +25,12 @@ if ($db_conn){
 //         echo 'Data inserted';
         // header ('location: Reg_form.php');
 
+
             // OR 
             // Using prepared and bind statement
 
+
+            
     $stmt = $db_conn->prepare('INSERT INTO `membership_reg` (`Surname`, `Firstname`, `Other names`, `Address`, `Email`, `Gender`, `Marital Status`,
     `Date of Birth`, `Phone number`, `State of Origin`)
     VALUES (?,?,?,?,?,?,?,?,?,?)');
