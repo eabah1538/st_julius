@@ -19,11 +19,11 @@
             </p>
 
         <div class="container">
-          <div class="row pt-3  pb-3 mx-auto">
-              <div class="col-md-3 as landscape" onclick="scrollToView('#chb')">Church Building</div>
-              <div class="col-md-3 at landscape" onclick="scrollToView('#mg')">Marian Grotto</div>
-              <div class="col-md-3 au landscape" onclick="scrollToView('#sch')">School and Educational Centre</div>
-              <div class="col-md-3 av landscape" onclick="scrollToView('#hrc')">Hall/ Retreat Centre</div>
+          <div class="row pt-3  pb-3 mx-auto view overlay zoom">
+              <div class="col-md-3 as landscape mask flex-center waves-effect waves-light" onclick="scrollToView('#chb')">Church Building</div>
+              <div class="col-md-3 at landscape mask flex-center waves-effect waves-light" onclick="scrollToView('#mg')">Marian Grotto</div>
+              <div class="col-md-3 au landscape mask flex-center waves-effect waves-light" onclick="scrollToView('#sch')">School and Educational Centre</div>
+              <div class="col-md-3 av landscape mask flex-center waves-effect waves-light" onclick="scrollToView('#hrc')">Hall/ Retreat Centre</div>
           </div>
         </div>
     </div>

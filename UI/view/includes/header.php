@@ -74,7 +74,7 @@
         */
 
     </script>
-</head>
+ </head>
   <body>
    <!--Navbar-->
       <nav class="navbar navbar-expand-lg transparent navbar-light fixed-top scrolling-navbar white-text" id="thirdLayer">
@@ -82,11 +82,12 @@
         <!-- Navbar brand -->
         
         <a class="navbar-brand white-text" style="font-style: bold" href="#">
-        <div style="max-width: 100px;">
-           <div style="float: left; padding-right: 20px;">
-             <img src="../../assets/Pope_Julius_II.jpg" width="70" height="70" alt="">
-           </div> 
-          <div style="font-size: 1.0em" class="mx-auto"><h3>Saint Julius <br> Catholic Church</h3> </div >
+        <div style="max-width: 100px; padding-left: ">
+           <div style="float: left; padding-right: 10px;">
+             <img src="../../assets/Pope_Julius_II.jpg" width="55" height="55" alt="">
+           </div>
+           <div class="mx-auto"><h6>Catholic Diocese of Abeokuta</h6> </div >
+          <div class="mx-auto"><h5>Saint Julius Catholic Church</h5> </div >
         </div>
         
       </a>
@@ -101,17 +102,12 @@
         <div class="collapse navbar-collapse" id="basicExampleNav">
 
           <!-- NavLinks -->
-          <ul class="navbar-nav ml-auto mr-auto">
+          <ul class="navbar-nav ml-auto pr-5">
             <li class="nav-item">
               <a class="nav-link" href="./index.php">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-
-
-            <!-- <li class="nav-item">
-              <a class="nav-link " href="./about.php">About</a>
-            </li> -->
 
             <!-- Dropdown menu-->
             <li class="nav-item dropdown">
@@ -120,19 +116,35 @@
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="/newcomers">Parish History</a></li>
-                    <li><a href="/newcomers/become">Becoming Catholic</a></li>
-                    <li><a href="/newcomers/return">Returning Catholics</a></li>
+                    <li><a href="./about.php">Parish History</a></li>
+                    <li><a href="/">Becoming Catholic</a></li>
+                    <li><a href="/">Returning Catholics</a></li>
                     <li><a href="/Inquiry">Why Become a Catholic?</a></li>
-                    <li><a href="/beliefs">Learn More</a></li>
-                    <li><a href="http://stphilipsparish.com/media/1/5/parish_registration_form.pdf" target="_blank">Register</a></li>
-                    <li><a href="/our-faith">Our Faith</a></li>
-                    <li><a href="/About">About Our Parish</a></li>
                     <li><a href="/RCIA">RCIA</a></li>
+                    <li><a href="/beliefs">Learn More</a></li>
+                    
                 </ul>
               </div>
             </li>
 
+            <li class="nav-item dropdown">
+              <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true"><span> Our Faith</span></a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <ul class="dropdown">
+                  <li class="menu-back" style="display: none"><a href="#">                        
+                    <li><a href="/newcomers">What is the Catholic Church</a></li>
+                    <li><a href="/newcomers/become">The Catholic Beliefs and Traditions</a></li>
+                    <li><a href="/newcomers/return">Sacraments</a></li>
+                    <li><a href="/Inquiry"> Daily Mass</a></li>
+                    <li><a href="/beliefs"> Marian Devotion</a></li>
+                    <li><a href=""> Saints and Relics</a></li>
+                    <li><a href="/our-faith"> Being Catholic Today</a></li>
+                    <li><a href="/About">We are the Church</a></li>
+                   
+                </ul>
+              </div>
+            </li>
             <!-- <li class="nav-item">
               <a class="nav-link link" href="./comunities.php">Communities</a>
             </li> -->
@@ -142,11 +154,11 @@
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <ul class="">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="/newcomers">Liturgical Group</a></li>
-                    <li><a href="/newcomers/become">Societies</a></li>
-                    <li><a href="/newcomers/return">Basic Christian Communities</a></li>
-                    <li><a href="/Inquiry">Outstations</a></li>
-                    <li><a href="/beliefs">Parish Council</a></li>
+                    <li><a href="./comunities.php">Liturgical Group</a></li>
+                    <li><a href="">Societies</a></li>
+                    <li><a href="">Basic Christian Communities</a></li>
+                    <li><a href="">Outstations</a></li>
+                    <li><a href="">Parish Council</a></li>
                  </ul>
               </div>
             </li>
@@ -158,7 +170,7 @@
           </li> -->
           <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Projects</span></a>
+                aria-haspopup="true" aria-expanded="true"><span> Ministries</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <ul class="">
                   <li class="menu-back" style="display: none"><a href="#">                        
@@ -184,15 +196,10 @@
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <ul class="">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="/newcomers">Welcome</a></li>
-                    <li><a href="/newcomers/become">Becoming Catholic</a></li>
-                    <li><a href="/newcomers/return">Returning Catholics</a></li>
-                    <li><a href="/Inquiry">Why Become a Catholic?</a></li>
-                    <li><a href="/beliefs">Learn More</a></li>
-                    <li><a href="http://stphilipsparish.com/media/1/5/parish_registration_form.pdf" target="_blank">Register</a></li>
-                    <li><a href="/our-faith">Our Faith</a></li>
-                    <li><a href="/About">About Our Parish</a></li>
-                    <li><a href="/RCIA">RCIA</a></li>
+                    <li><a href="./Reg_form.php">Newcomer</a></li>
+                    <li><a href="">Returning Catholic</a></li>
+                    <li><a href="">Practising Catholics</a></li>
+                    
                 </ul>
               </div>
             </li>
@@ -204,11 +211,11 @@
 
         <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="true"><span> Services</span></a>
+                aria-haspopup="true" aria-expanded="true"><span> Pastoral Services</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                 <ul class="">
                   <li class="menu-back" style="display: none"><a href="#">                        
-                    <li><a href="/newcomers">Welcome</a></li>
+                    <li><a href="/newcomers"></a></li>
                     <li><a href="/newcomers/become">Becoming Catholic</a></li>
                     <li><a href="/newcomers/return">Returning Catholics</a></li>
                     <li><a href="/Inquiry">Why Become a Catholic?</a></li>

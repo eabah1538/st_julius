@@ -4,10 +4,17 @@
  
  body {
    background-attachment: fixed;   
-   background: url("../../assets/Pope_Julius_II.jpg");
-   opacity: transparent;
  }
- h1, h2, h3, h5 {
+ .content{
+   /* background: url("../../assets/Pope_Julius_II.jpg"); */
+   /* opacity: 0.8; */
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: none;
+   background-blend-mode: hue;
+ }
+ h1, h2, h3, h5, h6 {
     color: #e4932a;
     font-weight: bolder;
  }
@@ -18,26 +25,12 @@
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
  }
- /* .nav-item .:hover {
-    margin-right: 35px;
-  }
-    */
-  /* .dropdown-menu::after {
-     transition: transform 0.15s linear; 
-  }
-   
-  .show.dropdown .dropdown-menu::after {
-    transform: translateY(3px);
-  }
- .nav-item{
-     font-size: 1.4em;
- } */
 
  nav.faded{
     opacity:0;
  }
 
- .nav-item:hover .nav-link{
+ .nav-item:hover{
      border-bottom: 1px solid#e4932a;
      padding: 0;
      margin: 0;
@@ -52,7 +45,7 @@
  }
 
  .small-text{
-     color: rgb(131, 79, 11);
+     color: white;
      font-style: italic;
      font-size: 2em;
      padding-left: 100px;
@@ -228,4 +221,12 @@ u div a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.card-image-x {
+    background-image: url('../../assets/The_Priest.jpg');
+}
+.card-image-y {
+    background-image: url('../../assets/eucharist_1.jpg');
+}
+.card-image-z {
+    background-image: url('../../assets/side_about.jpg');
+}
