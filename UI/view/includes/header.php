@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Galada&display=swap" rel="stylesheet">
+
     <!-- Bootstrap core CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -99,7 +101,7 @@
         </button>
 
         <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+        <div class="collapse navbar-collapse f_regular" id="basicExampleNav">
 
           <!-- NavLinks -->
           <ul class="navbar-nav ml-auto pr-5">
@@ -163,12 +165,11 @@
               </div>
             </li>
 
-
           <!-- </li>
           <li class="nav-item">
             <a class="nav-link" href="./projects.php">Projects</a>
           </li> -->
-          <li class="nav-item dropdown">
+             <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Ministries</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -190,7 +191,7 @@
           <!-- <li class="nav-item">
             <a class="nav-link " href="./Reg_form.php">Membership</a>
           </li> -->
-          <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Membership</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -203,13 +204,8 @@
                 </ul>
               </div>
             </li>
-        
 
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="./services.php">Services</a>
-        </li> -->
-
-        <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Pastoral Services</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
@@ -228,10 +224,10 @@
               </div>
             </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.php">Contact</a>
-        </li>
-
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.php">Contact</a>
+            </li>
+          </ul>
 
          <!--END/ Dropmenu -->
           <!-- <form class="form-inline">
@@ -243,8 +239,9 @@
 
            <!-- END/ NavLinks -->
         </div>
-        <!-- Collapsible content -->
+           <!-- NavLinks -->
 
+        <!-- Collapsible content -->s
       </nav>
    <!--/.Navbar-->
 

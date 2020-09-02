@@ -167,10 +167,11 @@
               if(scroll_start > offset.top) {
                   $("nav").css({backgroundColor: '#fff'});
                   $("nav").addClass('navbar')
-                  $(".nav-link").removeClass('white-text');
+                  // $(".nav-link").removeClass('white-text');
                   $(".nav-link").css({color: '#dd9d48'});
               } else {
-                  $('nav').css({backgroundColor: 'transparent', boxShadow: 'none'});
+                  $('nav').css({backgroundColor: 'transparent'});
+                  $(".nav-link").css({color: '#fff'});
                   if (document.URL.endsWith("index.php")){
                      $(".nav-link").css({color: '#fff'});
                   }else{

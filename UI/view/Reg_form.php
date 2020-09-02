@@ -63,6 +63,7 @@
             </div>
             <div>
                 <p> HAVE YOU RECIEVED THE SACRAMENTS OF:</p>
+            <div class="container">
                 <div class="custom-control custom-checkbox custom-control-inline">
                     <input type="checkbox" class="custom-control-input" id="materialChecked2" checked>
                     <label class="custom-control-label" for="materialChecked2">Baptism</label>

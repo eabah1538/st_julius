@@ -19,6 +19,10 @@
     font-weight: bolder;
  }
 
+ .f_regular {
+    font-family: 'Galada', cursive;
+ }
+
  nav{
      font-family: Arial, Helvetica, sans-serif;
      transition: opacity .25s ease-in-out;
@@ -92,9 +96,10 @@ p.body{
     min-height: 100px;
     color: rgb(173, 106, 18);
 }
-u div a {
+u li a {
     line-height: 30px;
     color: rgb(173, 106, 18);
+    list-style-type: none;
 }
 
 .quotes{
@@ -111,6 +116,7 @@ u div a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 700;
 }
 
  button { 
@@ -133,6 +139,17 @@ u div a {
      color : #ffffff;
      padding: 0px;
  }
+
+ .dropdown-menu {
+    background: #e4932abc;
+    /* color : #ffffff; */
+ }
+
+  .dropdown:hover .dropdown-menu{
+    background: #e4932abc;
+    color : #ffffff;
+    display: block;
+ } 
 
 .about_us{
     background-image: url("../../assets/side_about.jpg");
@@ -229,4 +246,17 @@ u div a {
 }
 .card-image-z {
     background-image: url('../../assets/side_about.jpg');
+}
+
+.card-image-x, .card-image-y, .card-image-z {
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.dropdown {
+    list-style-type: none;
+}
+
+.nav-item:hover.dropdown{
+    display: block !important;
 }
