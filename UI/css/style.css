@@ -136,13 +136,13 @@ u li a {
  }
 
  .nav-link {
-     color : #ffffff;
+     color : #fff;
      padding: 0px;
  }
 
  .dropdown-menu {
     background: #e4932abc;
-    /* color : #ffffff; */
+    color : #ffffff;
  }
 
   .dropdown:hover .dropdown-menu{
