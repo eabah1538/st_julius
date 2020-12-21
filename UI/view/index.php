@@ -1,6 +1,6 @@
 <?php include("./includes/header.php"); ?>
  
- <div class="container-fluid myHero">
+ <div class="container-fluid myHero" id="mast">
    <div class="row myMask" style="padding-top: 35px !important;">
       <div class="col-md-7">
        <div class="big-text" id="startchange">

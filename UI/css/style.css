@@ -1,5 +1,6 @@
 * {
     padding: 0px;
+    margin: 0px;
  }
  
  body {
@@ -41,9 +42,9 @@
  }
 
  .big-text{
-     font-size: 4em;
+     font-size: 2em;
      color: white;
-     margin-top: 100px;
+     /* margin-top: 100px; */
      padding: 100px 100px 20px 100px;
      font-weight: 100;
  }
@@ -51,7 +52,7 @@
  .small-text{
      color: white;
      font-style: italic;
-     font-size: 2em;
+     font-size: 1em;
      padding-left: 100px;
  }
  
@@ -140,12 +141,12 @@ u li a {
      padding: 0px;
  }
 
- .dropdown-menu {
+ /* .navbar .dropdown-menu{
     background: #e4932abc;
-    color : #ffffff;
- }
+    color : #ffffff !important;
+ } */
 
-  .dropdown:hover .dropdown-menu{
+  .dropdown:hover .dropdown-menu {
     background: #e4932abc;
     color : #ffffff;
     display: block;
@@ -238,7 +239,7 @@ u li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.card-image-x {
+/* .card-image-x {
     background-image: url('../../assets/The_Priest.jpg');
 }
 .card-image-y {
@@ -246,7 +247,7 @@ u li a {
 }
 .card-image-z {
     background-image: url('../../assets/side_about.jpg');
-}
+} */
 
 .card-image-x, .card-image-y, .card-image-z {
     background-repeat: no-repeat;

@@ -154,7 +154,7 @@
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Communities</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <ul class="">
+                <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
                     <li><a href="./comunities.php">Liturgical Group</a></li>
                     <li><a href="">Societies</a></li>
@@ -173,7 +173,7 @@
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Ministries</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <ul class="">
+                <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
                     <li><a href="/newcomers">Welcome</a></li>
                     <li><a href="/newcomers/become">Becoming Catholic</a></li>
@@ -195,7 +195,7 @@
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Membership</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <ul class="">
+                <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
                     <li><a href="./Reg_form.php">Newcomer</a></li>
                     <li><a href="">Returning Catholic</a></li>
@@ -209,7 +209,7 @@
               <a class="nav-link" id="navbarDropdownMenuLink" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="true"><span> Pastoral Services</span></a>
               <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                <ul class="">
+                <ul class="dropdown">
                   <li class="menu-back" style="display: none"><a href="#">                        
                     <li><a href="/newcomers"></a></li>
                     <li><a href="/newcomers/become">Becoming Catholic</a></li>
@@ -230,6 +230,7 @@
           </ul>
 
          <!--END/ Dropmenu -->
+         
           <!-- <form class="form-inline">
             <div class="md-form my-0">
               <input class="form-control mr-sm-2" type="text _a" placeholder="Search"  aria-label="Search">
@@ -241,7 +242,63 @@
         </div>
            <!-- NavLinks -->
 
-        <!-- Collapsible content -->s
+        <!-- Collapsible content -->
       </nav>
    <!--/.Navbar-->
+
+
+
+
+    <!-- <div id="mast"> -->
+
+      <!-- Scroll Carousel  -->
+      <!-- <div class="marquee0" style="overflow: hidden;">
+        <div style="visibility: visible; padding: 2px; width: 100%; height: 300px; position: relative; overflow: hidden;">
+          <div style="position: absolute; left: -809px; white-space: nowrap; top: 0px;">&nbsp;
+            <img src="slide/aP.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g1.jpg" title="">
+            <img src="slide/interior.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g2.jpg" title="">
+            <img src="slide/interior2.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g5.jpg" title="">
+            <img src="slide/g14.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g14.jpg" title="">
+            <img src="slide/g15.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g15.jpg" title="">
+            <img src="slide/g7.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g7.jpg" title="">
+            <img src="slide/g11.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g11.jpg" title="">
+            <img src="slide/g9.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g9.jpg" title="">
+          </div>
+          <div style="position: absolute; left: 2743px; white-space: nowrap; top: 0px;">&nbsp;
+            <img src="slide/g1.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g1.jpg" title="">
+            <img src="slide/g2.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g2.jpg" title="">
+            <img src="slide/g5.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g5.jpg" title="">
+            <img src="slide/g14.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g14.jpg" title="">
+            <img src="slide/g15.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g15.jpg" title="">
+            <img src="slide/g7.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g7.jpg" title="">
+            <img src="slide/g11.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g11.jpg" title="">
+            <img src="slide/g9.jpg" style="padding-right: 5px; display: inline; vertical-align: top;" alt="g9.jpg" title="">
+          </div>
+        </div>
+      </div> -->
+
+
+      <!-- <script type="text/javascript">
+          marqueeInit({
+            uniqueid: 'mycrawler2',
+            style: {
+              'padding': '2px',
+              'width': '100%',
+              'height': '300px',
+              "opacity": 0.5
+            },
+            inc: 5, //speed - pixel increment for each iteration of this marquee's movement
+            mouse: 'cursor driven', //mouseover behavior ('pause' 'cursor driven' or false)
+            moveAtLeast: 2,
+            neutral: 150,
+            saveDirection: true,
+            random: true
+          });
+      </script> -->
+      <!-- end of Scroll Carousel -->
+
+      <!-- <br clear="all">
+    </div>  -->
+
+
 
